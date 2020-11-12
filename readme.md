@@ -25,3 +25,4 @@ npm install
 
 - Version: 1.0.0
 - Licence : MIT
+- Created by: mikey.prus@gmail.com
