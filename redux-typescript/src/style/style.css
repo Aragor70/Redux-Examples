@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body
+{
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0!important;
+    padding: 0!important;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: #000;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+button
+{
+    font-weight: 400;
+    overflow: hidden;
+    outline: none;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    
+    width: 75px;
+    height: 35px;
+}
+button:hover
+{
+    color: lightblue;
+}
+button:focus
+{
+    color: #49c500;
+}
+
+
+.alert 
+{
+    position: absolute;
+    width: 100%;
+    min-height: 35px;
+    border-radius: 2.5px;
+    top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    font-size: 17.5px;
+    font-weight: 400;
+    z-index: 0;
+    
+}
+.alert-success
+{
+    color: #49c500;
+    transition: ease-in;
+    animation-name: success;
+    animation-duration: 1.5s;
+}
+.alert-danger
+{
+    color: red;
+    transition: ease-in;
+    animation-name: danger;
+    animation-duration: 1.5s;
+
+}
+@keyframes success {
+    from {color: lightblue;}
+    to {color: #49c500}
+}
+@keyframes danger {
+    from {color: lightblue;}
+    to {color: red}
+}
+
+.output
+{
+    width: 100%;
+    height: auto;
+    margin-top: 9vh;
+    padding: 30px;
+
+    float: left;
+    background-color: #121212;
+}

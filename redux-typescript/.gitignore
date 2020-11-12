@@ -1,17 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/redux-middleware/node_modules
-/redux-middleware/.cache
-/redux-middleware/dist
-
-/redux-project/node_modules
-/redux-project/.cache
-/redux-project/dist
-
-/thunk-project/node_modules
-/redux-typescript/node_modules
-
+/node_modules
 /.pnp
 .pnp.js
 
