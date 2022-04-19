@@ -14,6 +14,7 @@
 
 * Thunk-middleware and typescript - <i>/redux-typescript</i>
 
+* Context - <i>context-project </i>
 
 ## Install Dependencies
 ```
